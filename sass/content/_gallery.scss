@@ -1,0 +1,32 @@
+.gallery {
+
+	a.thumbnail {
+		&:hover, &:active, &:focus {
+			border-color: #a4c377;
+		}
+	}
+
+	.thumbnail {
+		border-radius: 0;
+		padding: 0;
+
+		.caption {
+			border-top: 5px solid lighten(#567031, 20);
+			background-color: #eff2ea;
+
+			.album-link {
+				display: block;
+				margin-top: 15px;
+				margin-bottom: 15px;
+				font-size: 17px;
+				cursor: pointer;
+			}
+		}
+
+		&.lightbox {
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

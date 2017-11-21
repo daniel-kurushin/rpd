@@ -1,0 +1,25 @@
+welcome{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: min-content;
+  text-align: center;
+
+
+  .btn_primary, .btn{
+    margin-top:20px;
+    font-size: 25px;
+    padding:5px 60px;
+    background:#5990CA;
+    border:0;
+    border-radius: 5px;
+  }
+}
+
+login{
+  .modal-dialog{
+    width: 300px;
+    margin: 15% auto;
+  }
+}
