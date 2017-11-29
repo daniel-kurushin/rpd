@@ -1,4 +1,4 @@
-welcome {
+body {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -9,7 +9,7 @@ welcome {
   align-content: center;
   justify-content: center;
   overflow: auto;
-  .welcome_block {
+  welcome {
     border:solid 4px #5990c9;
     padding: 15px;
     border-radius: 15px;

@@ -7469,7 +7469,7 @@ header .navbar .nav > li:first-child .dropdown-menu {
   left: 0;
 }
 
-welcome {
+body {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -7481,19 +7481,19 @@ welcome {
   justify-content: center;
   overflow: auto;
 }
-welcome .welcome_block {
+body welcome {
   border: solid 4px #5990c9;
   padding: 15px;
   border-radius: 15px;
 }
-welcome .welcome_block login {
+body welcome login {
   padding: 30px 15px;
   text-align: center;
 }
-welcome .welcome_block login .form-control {
+body welcome login .form-control {
   margin-bottom: 20px;
 }
-welcome .welcome_block login .btn-primary {
+body welcome login .btn-primary {
   width: 175px;
   font-size: 20px;
 }
@@ -7633,7 +7633,7 @@ main {
 }
 .logo .ellipse-text {
   font-family: 'a_AssuanNr', arial;
-  transform: scaleY(0.7);
+  transform: scaleY(0.8);
   font-size: 33px;
   margin-top: 12px;
   text-align: center;
