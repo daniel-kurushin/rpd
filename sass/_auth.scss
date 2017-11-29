@@ -1,18 +1,28 @@
-welcome{
+welcome {
+  width: 100%;
+  height: 100%;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: min-content;
-  text-align: center;
-
-
-  .btn_primary, .btn{
-    margin-top:20px;
-    font-size: 25px;
-    padding:5px 60px;
-    background:#5990CA;
-    border:0;
-    border-radius: 5px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  .welcome_block {
+    border:solid 4px #5990c9;
+    padding: 15px;
+    border-radius: 15px;
+    login {
+      padding: 30px 15px;
+      text-align: center;
+      .form-control {
+        margin-bottom: 20px;
+      }
+      .btn-primary {
+        width: 175px;
+        font-size: 20px;
+      }
+    }
   }
 }

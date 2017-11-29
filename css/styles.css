@@ -7334,47 +7334,9 @@ button.close {
     display: none !important;
   }
 }
-h2, h3 {
-  margin-top: 27px;
-  margin-bottom: 27px;
-}
-
-a {
-  color: #789253;
-  text-decoration: underline;
-}
-a:hover, a:focus {
-  color: #a4c377;
-}
-
-p {
-  margin-bottom: 15px;
-}
-
-table {
-  overflow: hidden;
-}
-
-.body-wrap {
-  min-width: 1050px;
-  border: 10px solid #567031;
-  overflow: hidden;
-}
-
-.wrap {
-  width: 1000px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.head-lvl-3 {
-  font-family: "Tahoma", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.bold {
-  font-weight: bold;
+.modal-dialog {
+  width: 300px;
+  margin: 15% auto;
 }
 
 header {
@@ -7508,25 +7470,32 @@ header .navbar .nav > li:first-child .dropdown-menu {
 }
 
 welcome {
+  width: 100%;
+  height: 100%;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: min-content;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+welcome .welcome_block {
+  border: solid 4px #5990c9;
+  padding: 15px;
+  border-radius: 15px;
+}
+welcome .welcome_block login {
+  padding: 30px 15px;
   text-align: center;
 }
-welcome .btn_primary, welcome .btn {
-  margin-top: 20px;
-  font-size: 25px;
-  padding: 5px 60px;
-  background: #5990CA;
-  border: 0;
-  border-radius: 5px;
+welcome .welcome_block login .form-control {
+  margin-bottom: 20px;
 }
-
-login .modal-dialog, confirm-exit .modal-dialog {
-  width: 300px;
-  margin: 15% auto;
+welcome .welcome_block login .btn-primary {
+  width: 175px;
+  font-size: 20px;
 }
 
 main {
@@ -7627,6 +7596,48 @@ main {
 .content .ul li:before {
   content: "\2014  ";
   color: #789253;
+}
+
+@font-face {
+  font-family: 'a_AssuanNr';
+  font-style: normal;
+  font-weight: 400;
+  src: local("a_AssuanNr"), local("a_AssuanNr-Medium"), url(/font/a_assuannr.woff) format("woff"), url(/font/a_assuannr.ttf) format("truetype");
+}
+.logo {
+  color: white;
+  width: 300px;
+  height: 242px;
+  background: #5990c9;
+  border-radius: 20%/100%;
+}
+.logo .text {
+  font-family: 'a_AssuanNr', arial;
+  font-size: 46.5px;
+  margin-top: 53px;
+  line-height: 46px;
+  padding: 4px;
+  margin-left: 6px;
+}
+.logo .ellipse {
+  padding: 0;
+  margin-right: 10px;
+  font-size: smaller;
+  height: 70px;
+  width: 70px;
+  background: #fff;
+  border-radius: 100px;
+  margin-top: 15px;
+  float: right;
+  color: #000;
+}
+.logo .ellipse-text {
+  font-family: 'a_AssuanNr', arial;
+  transform: scaleY(0.7);
+  font-size: 33px;
+  margin-top: 12px;
+  text-align: center;
+  color: #5990c9;
 }
 
 .slider-wrap {
