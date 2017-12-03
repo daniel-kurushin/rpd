@@ -31,10 +31,16 @@
     </div>
     <div class="header_title col-xs-8">
         Пермский национальный исследовательский политехнический университет
-
+        <form class="input-group search_frm" action="/rpd_main/" method="get" >
+            <input type="text" class="form-control search_text" name="query">
+            <input type="hidden" name="login" value="">
+            <span class="input-group-btn">
+        <input type="submit" class="btn btn-default" value="Поиск"></input>
+      </span>
+        </form>
     </div>
     <div class="header_pstu col-xs-2">
-
+        <div class="logo_pstu"></div>
     </div>
     <div class="col-xs-12 nav"></div>
 </header>
