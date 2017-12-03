@@ -7749,6 +7749,7 @@ header .nav {
   background: #e2e2e2;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
+  transition: 0.25s;
 }
 
 .tab-panel {
@@ -7807,6 +7808,10 @@ header .nav {
 .th-num {
   text-align: center;
   width: 30px;
+}
+
+.th-name {
+  contenteditable: true;
 }
 
 .td-delete {
