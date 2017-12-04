@@ -1,0 +1,31 @@
+aside{
+  .editor{
+    min-height:100px;
+    padding:5px;
+    border:solid 2px #5990c9;
+    margin-bottom:5px;
+    border-radius:7px;
+    &_title{
+      text-align: center;
+      border-bottom:solid 1px #5990c9;
+    }
+    &_content{
+      padding-top:13px;
+      text-align:center;
+    }
+  }
+}
+.list{
+  padding-left:0;
+}
+subjectlist{
+  &>div:first-child{
+    background:green;
+  }
+  overflow: scroll;
+
+  height:500px;
+  border:solid 2px #5990c9;
+  border-radius:7px;
+} 
+

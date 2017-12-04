@@ -7345,9 +7345,12 @@ button.close {
   font-weight: 400;
   src: local("a_AssuanNr"), local("a_AssuanNr-Medium"), url(/font/a_assuannr.woff) format("woff"), url(/font/a_assuannr.ttf) format("truetype");
 }
-header {
+.head {
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 10px;
 }
+
 header .header_logo {
   font-family: 'a_AssuanNr', arial;
   width: 110px;
@@ -7381,7 +7384,7 @@ header .header_logo_ellipse_text {
 header .header_title {
   padding-top: 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.8vw;
   line-height: 30px;
 }
 header .header_title .search_frm {
@@ -7734,6 +7737,36 @@ header .nav {
 }
 .gallery .thumbnail.lightbox p {
   margin-bottom: 0;
+}
+
+aside .editor {
+  min-height: 100px;
+  padding: 5px;
+  border: solid 2px #5990c9;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+aside .editor_title {
+  text-align: center;
+  border-bottom: solid 1px #5990c9;
+}
+aside .editor_content {
+  padding-top: 13px;
+  text-align: center;
+}
+
+.list {
+  padding-left: 0;
+}
+
+subjectlist {
+  overflow: scroll;
+  height: 500px;
+  border: solid 2px #5990c9;
+  border-radius: 7px;
+}
+subjectlist > div:first-child {
+  background: green;
 }
 
 .collection-item {
