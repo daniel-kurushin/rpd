@@ -7,8 +7,15 @@
   url(/font/a_assuannr.ttf) format('truetype');
 }
 
-header {
+.head{
+  margin-left:0px;
+  margin-right:0px;
   margin-bottom: 10px;
+}
+
+
+header {
+
   .header_logo {
     font-family: 'a_AssuanNr', arial;
     width: 110px;
@@ -42,7 +49,7 @@ header {
   .header_title {
     padding-top: 10px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.8vw;
     line-height: 30px;
     .search_frm {
       margin-top: 5px;
