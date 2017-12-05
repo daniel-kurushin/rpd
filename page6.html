@@ -71,12 +71,12 @@
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item tab-selected" href="http://localhost:3000/page5.html">
+                    <a class="collection-item" href="http://localhost:3000/page5.html">
                         Перечень учебно-методического обеспечения для СРС
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item" href="http://localhost:3000/page6.html">
+                    <a class="collection-item tab-selected" href="http://localhost:3000/page6.html">
                         ФОС
                     </a>
                 </li>
@@ -100,53 +100,27 @@
         <div class="tab-content">
             <div>
                 <h3 class="title-page">
-                    Перечень учебно-методического обеспечения самостоятельной работы студентов
+                    Фонд оценочных средств
                 </h3>
             </div>
-            <div class="row row-content">
-                <table class="table-content">
-                    <thead>
-                    <tr>
-                        <th class="td-bw th-num">
-                            №
-                        </th>
-                        <th class="td-bw">
-                            Наименование
-                        </th>
-                        <th class="td-bw td-delete"></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <srsBody>
-                    <tr><!-- Заглушка -->
-                        <th class="td-bw th-num">1</th>
-                        <th class="td-bw th-name" contenteditable="true">
-                            <div class="name-decor">
-                            Наименование1
-                        </div>
-                        </th>
-                        <th class="td-bw td-delete"></th>
-                    </tr>
-                    </srsBody>
-                    </tbody>
-                </table>
+            <div class="file-field input-field">
+                <div class="fos-btn btn">
+                    <span>ФОС. ОБЩАЯ ЧАСТЬ</span>
+                    <input type="file" multiple>
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Загрузите файл(ы)">
+                </div>
             </div>
-            <tab-content-footer>
-                Где искать:
-                <ul>
-                    </br>
-                    <li>
-                        <a href="http://elib.pstu.ru/" target="_blank">
-                            Электронная библиотека ПНИПУ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://e.lanbook.com/" target="_blank">
-                            Электронно-библиотечная система ЛАНЬ
-                        </a>
-                    </li>
-                </ul>
-            </tab-content-footer>
+            <div class="file-field input-field">
+                <div class="fos-btn btn">
+                    <span>ФОС ПО ДИСЦИПЛИНАМ</span>
+                    <input type="file" multiple>
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Загрузите файл(ы)">
+                </div>
+            </div>
         </div>
     </div>
 

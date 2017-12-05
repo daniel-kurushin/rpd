@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item tab-selected" href="http://localhost:3000/page5.html">
+                    <a class="collection-item" href="http://localhost:3000/page5.html">
                         Перечень учебно-методического обеспечения для СРС
                     </a>
                 </li>
@@ -86,7 +86,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item" href="http://localhost:3000/page8.html">
+                    <a class="collection-item tab-selected" href="http://localhost:3000/page8.html">
                         Перечень ИТ
                     </a>
                 </li>
@@ -100,53 +100,73 @@
         <div class="tab-content">
             <div>
                 <h3 class="title-page">
-                    Перечень учебно-методического обеспечения самостоятельной работы студентов
+                    Перечень информационных технологий
                 </h3>
+            </div>
+            <div class="subtitle-page">
+                Перечень программного обеспечения
             </div>
             <div class="row row-content">
                 <table class="table-content">
                     <thead>
                     <tr>
-                        <th class="td-bw th-num">
-                            №
-                        </th>
-                        <th class="td-bw">
-                            Наименование
-                        </th>
-                        <th class="td-bw td-delete"></th>
+                        <th class="td-bc th-num">№</th>
+                        <th class="td-bc">Наименование</th>
+                        <th class="td-bc">Номер лицензии</th>
+                        <th class="td-bc">Лицензия</th>
+                        <th class="td-bc td-delete"></th>
                     </tr>
                     </thead>
                     <tbody>
-                    <srsBody>
-                    <tr><!-- Заглушка -->
-                        <th class="td-bw th-num">1</th>
-                        <th class="td-bw th-name" contenteditable="true">
-                            <div class="name-decor">
-                            Наименование1
-                        </div>
+                    <POList>
+                        <!-- Заглушка -->
+                        <th class="td-bc th-num">№</th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Наименование1
+                            </div>
                         </th>
-                        <th class="td-bw td-delete"></th>
-                    </tr>
-                    </srsBody>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">12312312
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Лицензия1
+                            </div>
+                        </th>
+                        <th class="td-bc td-delete"></th>
+                    </POList>
                     </tbody>
                 </table>
             </div>
-            <tab-content-footer>
-                Где искать:
-                <ul>
-                    </br>
-                    <li>
-                        <a href="http://elib.pstu.ru/" target="_blank">
-                            Электронная библиотека ПНИПУ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://e.lanbook.com/" target="_blank">
-                            Электронно-библиотечная система ЛАНЬ
-                        </a>
-                    </li>
-                </ul>
-            </tab-content-footer>
+            <div class="subtitle-page">
+                Перечень информационных справочных систем
+            </div>
+            <table class="table-content">
+            <thead>
+            <tr>
+                <th class="td-bc th-num">
+                    №
+                </th>
+                <th class="td-bc">
+                    Название(адрес)
+                </th>
+                <th class="td-bc td-delete"></th>
+            </tr>
+            </thead>
+                <tbody>
+                <ISSList>
+                    <tr><!-- Заглушка -->
+                        <th class="td-bc th-num">1</th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">
+                                Адрес1
+                            </div>
+                        </th>
+                        <th class="td-bc td-delete"></th>
+                    </tr>
+                </ISSList>
+                </tbody>
+            </table>
         </div>
     </div>
 

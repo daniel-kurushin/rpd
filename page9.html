@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item tab-selected" href="http://localhost:3000/page5.html">
+                    <a class="collection-item" href="http://localhost:3000/page5.html">
                         Перечень учебно-методического обеспечения для СРС
                     </a>
                 </li>
@@ -91,7 +91,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="collection-item" href="http://localhost:3000/page9.html">
+                    <a class="collection-item tab-selected" href="http://localhost:3000/page9.html">
                         Описание МТБ
                     </a>
                 </li>
@@ -100,53 +100,93 @@
         <div class="tab-content">
             <div>
                 <h3 class="title-page">
-                    Перечень учебно-методического обеспечения самостоятельной работы студентов
+                    Описание материально-технической базы
                 </h3>
+            </div>
+            <div class="subtitle-page">
+                Специализированные лаборатории и классы
             </div>
             <div class="row row-content">
                 <table class="table-content">
                     <thead>
                     <tr>
-                        <th class="td-bw th-num">
-                            №
-                        </th>
-                        <th class="td-bw">
-                            Наименование
-                        </th>
-                        <th class="td-bw td-delete"></th>
+                        <th class="td-bc th-num">№</th>
+                        <th class="td-bc">Номер аудитории</th>
+                        <th class="td-bc">Название</th>
+                        <th class="td-bc">Кафедра</th>
+                        <th class="td-bc">Площадь, м<sup>2</sup></th>
+                        <th class="td-bc">Количество мест</th>
+                        <th class="td-bc td-delete"></th>
                     </tr>
                     </thead>
                     <tbody>
-                    <srsBody>
-                    <tr><!-- Заглушка -->
-                        <th class="td-bw th-num">1</th>
-                        <th class="td-bw th-name" contenteditable="true">
-                            <div class="name-decor">
-                            Наименование1
-                        </div>
+                    <labs>
+                        <!-- Заглушка -->
+                        <th class="td-bc th-num">№</th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">123
+                            </div>
                         </th>
-                        <th class="td-bw td-delete"></th>
-                    </tr>
-                    </srsBody>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Название1
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Кафедра1
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">150
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">150
+                            </div>
+                        </th>
+                        <th class="td-bc td-delete"></th>
+                    </labs>
                     </tbody>
                 </table>
             </div>
-            <tab-content-footer>
-                Где искать:
-                <ul>
-                    </br>
-                    <li>
-                        <a href="http://elib.pstu.ru/" target="_blank">
-                            Электронная библиотека ПНИПУ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://e.lanbook.com/" target="_blank">
-                            Электронно-библиотечная система ЛАНЬ
-                        </a>
-                    </li>
-                </ul>
-            </tab-content-footer>
+            <div class="subtitle-page">
+                Основное учебное оборудование
+            </div>
+            <table class="table-content">
+            <thead>
+            <tr>
+                <th class="td-bc th-num">№</th>
+                <th class="td-bc">Наименование</th>
+                <th class="td-bc">Количество</th>
+                <th class="td-bc">Форма приобретения / владения</th>
+                <th class="td-bc">Номер аудитории</th>
+                <th class="td-bc td-delete"></th>
+            </tr>
+            </thead>
+                <tbody>
+                <baseEnviroment>
+                    <tr><!-- Заглушка -->
+                        <th class="td-bc th-num">№</th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Наименование1
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">150
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">Владение
+                            </div>
+                        </th>
+                        <th class="td-bc" contenteditable="true">
+                            <div class="name-decor">150
+                            </div>
+                        </th>
+                        <th class="td-bc td-delete"></th>
+                    </tr>
+                </baseEnviroment>
+                </tbody>
+            </table>
         </div>
     </div>
 
